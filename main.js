@@ -4,7 +4,7 @@ fetch(BASE_API)
 .then(res => {
     if(res.status === 200){
         console.log('ugurlu')
-    }else if(res.status === 400){
+    }else if(res.status === 404){
         console.log('ugursuz')
     }
 })
